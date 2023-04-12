@@ -1,6 +1,6 @@
 # Pink
 
-Flexible programming language that looks like rebol; compiles to C++ 
+Flexible programming language that looks like rebol; compiles to C 
 
 ```red
 main: fn [argc argv] [
