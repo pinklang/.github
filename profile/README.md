@@ -2,7 +2,7 @@
 
 Flexible programming language; written in itself; compiles to C++ & can use C++ libraries
 
-```red
+```cpp
 import string, vector, iostream
 
 int main() =>
