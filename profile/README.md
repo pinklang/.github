@@ -5,7 +5,7 @@ Flexible programming language; written in itself; compiles to C++ & can use C++ 
 ```cpp
 import string, vector, iostream
 
-int main() =>
+int main() ->
 	cout << "I love pink." << "\n"
 ```
 
