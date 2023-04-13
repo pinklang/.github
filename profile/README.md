@@ -1,19 +1,14 @@
 # Pink
 
-Flexible programming language that looks like rebol; compiles to C 
+Flexible programming language; written in itself; compiles to C++ & can use C++ libraries
 
 ```red
-main: fn [argc argv] [
-    nall printf "Hello, Pink!"
-]
+import string, vector, iostream
+
+int main() =>
+	cout << "I love pink." << "\n"
 ```
-##### `nall` is short for native call
-
-## Goals
-
-* Be easy
-* Be simple
 
 ## **Note**
 
-Pink is in its early stages
+Pink is not yet released
