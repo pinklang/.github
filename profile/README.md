@@ -3,10 +3,10 @@
 Flexible programming language; written in itself; compiles to C++ & can use C++ libraries
 
 ```cpp
-import string, vector, iostream
+import cstdio
 
 int main() ->
-	cout << "I love pink." << "\n"
+	printf("Hello, pink")
 ```
 
 ## **Note**
