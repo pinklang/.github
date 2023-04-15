@@ -1,12 +1,23 @@
 # Pink
 
-Flexible programming language; written in itself; compiles to C++ & can use C++ libraries
+Flexible programming language; runs on a dynamic JVM-like VM
 
-```cpp
-import cstdio
+#### Goals
+* Ease of use
+* Remove complexity
+* Fast development speeds
 
-int main() ->
-	printf("Hello, pink")
+#### Example
+
+```red
+main: fn [args] [
+	print "Does the dragon bite? "
+	for-each args arg [
+		if arg = "yes" [
+			print "Scary"
+		]
+	]
+]
 ```
 
 ## **Note**
